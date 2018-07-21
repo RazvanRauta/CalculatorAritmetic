@@ -14,11 +14,27 @@
         android:layout_marginEnd="1dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
+        android:onClick="fade"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/art" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="326dp"
+        android:layout_height="198dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:alpha="0"
+        android:onClick="fade"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/zombieartminions" />
 
     <TextView
         android:id="@+id/textView"
@@ -37,11 +53,11 @@
 
     <EditText
         android:id="@+id/primulNumar"
-        android:layout_width="215dp"
+        android:layout_width="213dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="153dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="32dp"
         android:ems="10"
         android:hint="Introduceti primul numar"
         android:inputType="number"
@@ -51,10 +67,10 @@
 
     <EditText
         android:id="@+id/alDoileaNumar"
-        android:layout_width="228dp"
+        android:layout_width="230dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="140dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="31dp"
         android:ems="10"
         android:hint="Introduceti al doilea numar"
         android:inputType="number"
@@ -80,8 +96,9 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="108dp"
         android:layout_marginStart="83dp"
-        android:layout_marginTop="7dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/alDoileaNumar">
 
